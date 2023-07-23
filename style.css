@@ -72,3 +72,18 @@ footer {
     background-image: url(https://www.google.com/s2/favicons?domain=css-tricks.com);
   }
 
+  a[href*="scoresaber.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=scoresaber.com);
+  }
+
+  a[href*="beatleader.xyz"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=beatleader.xyz);
+  }
+
+  a[href*="osu.ppy.sh"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=osu.ppy.sh);
+  }
+  
+  a[href*="hitbloq.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=hitbloq.com);
+  }
