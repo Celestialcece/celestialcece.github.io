@@ -1,10 +1,70 @@
-p {
+body {
+    color: #eee;
+    background: #121212;
+    font: 150% system-ui;
     font-family: Arial;
-    font-size: 25px;
+  }
+
+p {
+
   }
 
 main {
-    font-family: Arial;
-    font-size: 30px;
-    color: rgb(91,206,250);
+
   }
+
+  a[href^="http"] {
+    padding-left: 19px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  a[href*="en.pronouns.page"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=pronouns.page);
+  }
+
+  a[href*="tech.lgbt"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=tech.lgbt);
+  }
+
+
+  a[href*="twitter.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=twitter.com);
+  }
+
+  
+  a[href*="letterboxd.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=letterboxd.com);
+  }
+
+  a[href*="github.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=github.com);
+  }
+
+  
+  a[href*="tiktok.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=tiktok.com);
+  }
+  
+  a[href*="spotify.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=spotify.com);
+  }
+  
+  a[href*="last.fm"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=last.fm);
+  }
+  
+  a[href*="steamcommunity.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=steamcommunity.com);
+  }
+
+  
+  a[href*="developer.mozilla.org"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=developer.mozilla.org);
+  }
+
+  a[href*="css-tricks.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=css-tricks.com);
+  }
+
