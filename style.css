@@ -14,6 +14,9 @@ main {
 
   }
 
+footer {
+      position: "fixed; bottom: 0; width:100%; text-align: center"
+}
   a[href^="http"] {
     padding-left: 19px;
     background-size: 16px 16px;
