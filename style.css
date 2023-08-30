@@ -87,3 +87,7 @@ footer {
   a[href*="hitbloq.com"]{
     background-image: url(https://www.google.com/s2/favicons?domain=hitbloq.com);
   }
+
+  a[href*="spacehey.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=spacehey.com);
+  }
