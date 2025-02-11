@@ -16,9 +16,13 @@
     <body></body>
         <main style="text-align: center">
             <h1>nothing to see here :3</h1>
+            <h4 id="lastfm-widget">
+                <div id="widget">🎶 <span id="song">&#8987;</span></div>
+            </h4>
             <p> 
                 <a style="color: #eee">Celestialcece everywhere except for when it's celestiaicece</a>
             </p>
+
             <p> 
                 <a rel="me" href="https://en.pronouns.page/@CeIeste" target="_blank" rel="noopener noreferrer" style="color: #eee">Pronouns page :3</a>
             </p>
@@ -63,4 +67,14 @@
             </p>
         </main>
 </html>
-
+<script type="text/javascript">
+    let user = 'celestialcece';
+    let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+    let song = document.querySelector('#song');
+    fetch(url)
+        .then(function (response) {
+            return response.json()
+        }).then(function (json) {
+            song.innerHTML = "Now listening to: " + json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+        });
+</script>
