@@ -99,6 +99,11 @@ footer {
   a[href*="spacehey.com"]{
     background-image: url(https://www.google.com/s2/favicons?domain=spacehey.com);
   }
-  a[href*="https://www.backloggd.com"]{
-    background-image: url(https://www.google.com/s2/favicons?domain=backloggd.com);
+
+  a[href*="howlongtobeat.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=howlongtobeat.com);
+  }
+
+  a[href*="soundcloud.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=soundcloud.com);
   }
