@@ -107,3 +107,7 @@ footer {
   a[href*="soundcloud.com"]{
     background-image: url(https://www.google.com/s2/favicons?domain=soundcloud.com);
   }
+
+  a[href*="discogs.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=discogs.com);
+  }
