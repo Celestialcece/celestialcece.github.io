@@ -111,3 +111,8 @@ footer {
   a[href*="discogs.com"]{
     background-image: url(https://www.google.com/s2/favicons?domain=discogs.com);
   }
+
+  a[href*="instagram.com"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=instagram.com);
+  }
+

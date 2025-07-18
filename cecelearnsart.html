@@ -1,0 +1,53 @@
+<!doctype html>
+<!-- nothing to see here -->
+<html>
+    <head>
+        <title>Yay Art!</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <meta content="Crazy?" property="og:title" />
+        <meta content="I was crazy once, they put me in a room, a rubber room, a rubber room with rats, and rats make me crazy." property="og:description" />
+        <meta content="https://celestialcece.github.io/cecelearnsart.html" property="og:url" />
+        <meta content="https://celestialcece.github.io/images/chap.jpg" property="og:image" />
+        <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body></body>
+        <main style="text-align: center">
+            <h1>Fuck AI</h1>
+            <h4 id="lastfm-widget">
+                <div id="widget"><span id="song">&#8987;</span></div>
+            </h4>
+            <p> 
+                <a style="color: #eee">The other places I post:</a>
+            <p>
+                <a rel="me" href="https://bsky.app/profile/cecelearnsart.bsky.social" target="_blank" rel="noopener noreferrer" style="color: #eee">Bluesky</a>
+            </p>
+            <p>
+                <a rel="me" href="https://x.com/CeceLearnsArt" target="_blank" rel="noopener noreferrer" style="color: #eee">Twitter</a>
+            </p>
+            <p>
+                <a rel="me" href="https://www.instagram.com/cecelearnsartt/" target="_blank" rel="noopener noreferrer" style="color: #eee">Instagram</a>
+            </p>
+            <p>
+                <a rel="me" href="https://celestialcece.github.io" target="_blank" rel="noopener noreferrer" style="color: #eee">My other non art related socials</a>
+            </p>
+            <p>
+                I hope to make a neocities site with my own art<br>at some point when I'm a bit better :D
+            
+            </p>
+            
+        </main>
+</html>
+<script type="text/javascript">
+    let user = 'celestialcece';
+    let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+    let song = document.querySelector('#song');
+    fetch(url)
+        .then(function (response) {
+            return response.json()
+        }).then(function (json) {
+            song.innerHTML = "Now listening to: " + json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+        });
+</script>
