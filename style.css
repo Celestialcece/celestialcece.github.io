@@ -116,3 +116,6 @@ footer {
     background-image: url(https://www.google.com/s2/favicons?domain=instagram.com);
   }
 
+  a[href*="https://www.albumoftheyear.org"]{
+    background-image: url(https://www.google.com/s2/favicons?domain=https://www.albumoftheyear.org);
+  }
